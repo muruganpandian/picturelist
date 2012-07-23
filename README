@@ -1,8 +1,0 @@
-
-Usage
-
-node PictureList.js
-
-URLs to enter into browser:
-http://localhost:8080/?image=/home/murugan/nodejs/assignment
-http://localhost:8080/?image=/home/murugan/nodejs/assignment/images
