@@ -9,15 +9,15 @@ The "starting directory" should be specified to the script using the HTTP query 
  http://localhost/interview.php?image=/var/www/images
 D) An input button to submit the form containing the HTML select list.
 
-Usage
+### Usage
 node PictureList.js
 
-Bugs (to be fixed in next release)
+### Bugs (to be fixed in next release)
 - More error handling are needed.
 - Error in reflecting the directory recursion to the form despite wrench-js successfully performing the recursion.
 - Could not get it deployed successfuly at Heroku.
 
-Results
+### Results
 Despite the bug in the form, the selected pictures are successfuly streamed to the browser.
 I tested out the following in the browser where it matched how the directories were setup for me:
 http://localhost:8080/?image=/home/murugan/nodejs/assignment
